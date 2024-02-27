@@ -1,0 +1,47 @@
+.audio-btn{
+
+    cursor: pointer;
+}
+
+.custom-audio-player{
+
+
+    width:100vw;
+
+    position:fixed;
+    bottom:0;
+    left:0;
+    padding:1rem 0rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:2rem;
+
+    background-color:rgba(14,2,21,0.5)
+}
+
+.display-img-player{
+
+    width:40px;
+    height:40px;
+    object-fit:cover;
+    border-radius:50%
+}
+
+.duration-range{
+    width:100%;
+     filter:hue-rotate(25deg);
+}
+
+.duration-flex{
+    display :flex;
+    justify-content:flex-start;
+    align-items:center;
+    gap:0.5rem;
+    width:50%
+}
+
+.volume-range{
+    width:50%;
+
+}
